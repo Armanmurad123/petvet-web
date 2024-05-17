@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+
+    .dropdown {
+
+
+      background-color: #b43434;
+      height: 60px;
+      width: 100%;
+
+
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: rgb(238, 228, 228);
+      padding: 21px 26px;
+      background-color: black;
+      font-family: inherit;
+      margin: 0px 20px;
+      float: right;
+
+    }
+
+    .tx {
+      margin: 20px;
+      margin-right: 100px;
+      float: left;
+    }
+
+
+
+    .card {
+      margin-top: 600px;
+
+      margin-top: -140px;
+      position: absolute;
+      top: 800px;
+      left: 16px;
+      height: 300px;
+      margin-left: 200px;
+      width: 80%;
+    }
+
+
+
+    .gromming {
+      width: 350px;
+      border: 1px solid rgb(199, 197, 197);
+      background-color: aliceblue;
+      margin-top: 100px;
+      margin-left: 900px;
+      height: 150px;
+      position: absolute;
+      top: 8px;
+      left: 16px;
+    }
+
+    .gromming:hover {
+      background-color: deeppink;
+      cursor: pointer;
+    }
+
+    .setting {
+      width: 350px;
+      border: 1px solid rgb(199, 197, 197);
+      background-color: aliceblue;
+      margin-top: 100px;
+      margin-left: 520px;
+      height: 150px;
+      position: absolute;
+      top: 8px;
+      left: 16px;
+
+    }
+
+    .setting:hover {
+      background-color: deeppink;
+      cursor: pointer;
+    }
+
+    .service {
+      width: 350px;
+      border: 1px solid rgb(199, 197, 197);
+      background-color: aliceblue;
+      margin-top: 100px;
+      margin-left: 150px;
+      height: 150px;
+    }
+
+    .service:hover {
+      background-color: deeppink;
+      cursor: pointer;
+    }
+
+    .main {
+
+      width: 100%;
+      position: absolute;
+
+    }
+
+
+    .tx1 {
+      font-size: 40px;
+      margin-top: 200px;
+      margin-left: 305px;
+      text-align: center;
+      text-align: justify;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .tx2 {
+      text-align: center;
+      margin-left: 300px;
+      text-align: justify;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .img2 {
+
+      width: 1500px;
+      margin: 100px 30px;
+    }
+
+    .m2 {
+      width: 20%;
+      margin-top: -80px;
+      margin-left: 200px;
+
+    }
+
+    .dropbtn1 {
+      background-color: #a30a2175;
+      width: 200px;
+      height: 50px;
+      float: left;
+      margin-left: 80px;
+      margin-top: 550px;
+      margin-left: 300px;
+      width: 10%;
+      position: absolute;
+      top: 8px;
+      left: 16px;
+
+      color: aliceblue;
+      font-size: 15px;
+    }
+
+    .dropbtn2 {
+      background-color: rgb(33, 175, 45);
+      width: 200px;
+      height: 50px;
+      float: left;
+      margin-left: 80px;
+      margin-top: 550px;
+      margin-left: 500px;
+      width: 10%;
+      position: absolute;
+      top: 8px;
+      left: 16px;
+
+
+      color: aliceblue;
+    }
+
+
+    .agency1 {
+      margin-right: 500px;
+
+    }
+
+    .agencytext {
+      margin-left: 600px;
+      text-align: justify;
+      margin-left: 850px;
+      margin-top: -20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      word-spacing: 10px;
+      color: #6e6c6c;
+    }
+
+    .agencyimage {
+      height: 700px;
+      margin-top: 1px;
+      margin-left: 300px;
+    }
+
+    .agency1text {
+      color: rgb(158, 63, 137);
+      margin-left: 650px;
+      margin-top: -600px;
+    }
+
+    .ag {
+      margin-top: -200px;
+    }
+
+    .best {
+      margin-left: 850px;
+      text-align: justify;
+      font-size: 40px;
+
+    }
+
+    .pet3 {
+      width: 90px;
+      height: 80px;
+      position: absolute;
+      top: 8px;
+      left: 1px;
+      border-radius: 50%;
+    }
+
+    .pet1 {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    .p5 {
+      position: absolute;
+      top: 8px;
+      right: 30px;
+    }
+
+
+    .p6 {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      color: rgba(36, 34, 34, 0.671);
+      margin-left: 50px;
+    }
+
+    .p2 {
+      position: absolute;
+      bottom: 40px;
+      left: 180px;
+      color: rgba(36, 34, 34, 0.671);
+
+    }
+
+    .p1 {
+      position: absolute;
+      bottom: 90px;
+      left: 175px;
+
+      margin-left: 50px;
+    }
+
+    .pet2 {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      margin top: 8px;
+      left: 1px;
+
+      border-radius: 50%;
+    }
+
+    .p3 {
+      position: absolute;
+      bottom: 60px;
+      left: 60px;
+
+      margin-left: 50px;
+    }
+
+    .p4 {
+      position: absolute;
+      bottom: 10px;
+      left: 60px;
+      color: rgba(36, 34, 34, 0.671);
+      margin-left: 50px;
+
+    }
+
+    .logo {
+      height: 40px;
+      width: 40px;
+      margin-top: 20px;
+      margin-left: 800px;
+
+    }
+
+    .log {
+      list-style-type: none;
+      font-family: sans-serif;
+      font-size: 20px;
+
+    }
+
+    .tb {
+
+      margin-left: 300px;
+      width: 50%;
+      height: 200px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding: 10px;
+      margin-top: 40px;
+
+
+      color: rgb(100, 97, 97);
+      text-align: center;
+    }
+
+.make{
+  color: #b43434;
+  margin-left: 600px;
+  margin-top: 60px;
+}
+
+
+    head>h3 {
+      color: #cfcaca;
+      margin-left: 1000px;
+
+
+    }
+
+    .main-tb {
+      margin-top: 80px;
+      padding: 2px;
+      margin: 0px 4px 5px;
+
+    }
+
+    .opp {
+      background-color: rgb(25, 141, 112);
+      height: 40px;
+      width: 150px;
+    }
+
+    .grom {
+
+      height: 150px;
+    }
+
+    .g1 {
+      color: rgb(19, 5, 13);
+      margin-left: 800px;
+    }
+
+    .g {
+      color: deeppink;
+      margin-left: 708px;
+    }
+
+    .idcards {
+      justify-content: space-between;
+      display: flex;
+
+    }
+
+    .image1 {
+      height: 200px;
+      width: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 6px;
+      margin-top: -100px;
+      border: 4px solid #ffffff;
+    }
+
+
+    .image3 {
+      height: 200px;
+      width: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 6px;
+      margin-top: -100px;
+      border: 4px solid #ffffff;
+    }
+
+    .image4 {
+      height: 200px;
+      width: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: -100px;
+      border: 4px solid #ffffff;
+
+      margin-left: 6px;
+    }
+
+    .image5 {
+      height: 200px;
+      width: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 6px;
+      margin-top: -100px;
+      border: 4px solid #ffffff;
+    }
+
+    .wilsontext {
+
+      justify-content: space-between;
+      display: flex;
+    }
+
+
+    .wilson:hover {
+      background-color: rgb(44, 230, 91);
+    }
+
+    .smith:hover {
+      background-color: rgb(44, 230, 91);
+    }
+
+    .parker:hover {
+      background-color: rgb(44, 230, 91);
+    }
+
+    .Alicia:hover {
+      background-color: rgb(44, 230, 91);
+    }
+
+    .wilson {
+      margin-top: 5%;
+      margin-left: 300px;
+      width: 15%;
+    }
+
+    .Alicia {
+      margin-top: 5%;
+      width: 15%;
+      margin-right: 150px;
+    }
+
+    .smith {
+      margin-top: 5%;
+      width: 15%;
+      margin-right: 30px;
+
+    }
+
+    .parker {
+      margin-top: 5%;
+      margin-right: 30px;
+      width: 15%;
+    }
+
+    .idcards {
+
+      padding: 1px;
+      margin: 30px;
+    }
+
+
+    .twitter {
+      height: 30px;
+      width: 30px;
+      margin-top: - 4px;
+      margin-left: 60px;
+
+    }
+
+    .fb {
+      height: 30px;
+      width: 30px;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .google {
+      height: 30px;
+      width: 30px;
+      margin-top: 50px;
+      margin-left: 5px;
+    }
+
+    .insta {
+      height: 30px;
+      width: 30px;
+      margin-top: 50px;
+      margin-left: 10px;
+    }
+
+    .w1 {
+      margin-left: 45px;
+    }
+
+    .w2 {
+      color: deeppink;
+      margin-left: 50px;
+    }
+
+    .w3 {
+      margin-left: 50px;
+    }
+
+    .w4 {
+      margin-left: 80px;
+      color: deeppink;
+    }
+
+    .persn {
+      background-image: url("bg_3.jpg");
+
+      height: 800px;
+      width: 100%;
+      margin-top: 200px;
+      background-repeat: repeat;
+      justify-content: space-between;
+      display: flex;
+      opacity: 0.5;
+
+
+
+      outline-offset: -100px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: inset 0 0 0 99999px rgba(255, 0, 0, 0.5);
+
+
+    }
+
+    .per {
+      justify-content: space-between;
+      display: flex;
+      margin-top: -600px;
+width: 80%;
+     
+      height: 400;
+
+    }
+
+    .im1 {
+      height: 100px;
+      width: 100px;
+      margin-top: 20px;
+      opacity: 0.9;
+      margin-left: 20px;
+      border-radius: 50px;
+    }
+
+    .im2 {
+      height: 100px;
+      width: 100px;
+      margin-top: 20px;
+      opacity: 0.9;
+      margin-left: 20px;
+      border-radius: 50px;
+    }
+
+    .im3 {
+      height: 100px;
+      width: 100px;
+      margin-top: 20px;
+      opacity: 0.9;
+      margin-left: 20px;
+      border-radius: 50px;
+    }
+
+    .dogi1 {
+      background-color: rgb(245, 240, 243);
+      ;
+      height: 250px;
+      width: 300px;
+      opacity: 0.9;
+      margin-left: 400px;
+      margin-top: -6px;
+
+    }
+
+    .dogi2 {
+      background-color:rgb(245, 240, 243);
+      ;
+      height: 250px;
+      width: 300px;
+      opacity: 0.9;
+      margin-left: -600px;
+      margin-top: -6px;
+
+
+    }
+
+    .dogi3 {
+      background-color: rgb(245, 240, 243);
+      ;
+      height: 250px;
+      width: 300px;
+      opacity: 0.9;
+      margin-left: -600px;
+      margin-top: -6px;
+
+    }
+
+    .hapy {
+
+      color: rgb(247, 239, 243);
+      width: 300px;
+      margin-left: 800px;
+      position: absolute;
+      top:3096px;
+      left: 15px;
+
+      width: auto;
+
+    }
+
+
+    .red {
+
+      color: rgb(134, 30, 82);
+      width: 300px;
+      margin-left: - 800px;
+      position: absolute;
+      top: 3012px;
+      left: 880px;
+      opacity: 0.9;
+    }
+
+
+   
+  </style>
+</head>
+
+<body>
+
+  <body>
+    <div class="dropdown">
+
+      <button class="dropbtn">Dropdown</button>
+
+
+      <a href="#" class="tx">Home</a>
+      <a href="#" class="tx">About</a>
+      <a href="#" class="tx">Groomers</a>
+      <a href="#" class="tx">Services</a>
+      <a href="#" class="tx">Blog</a>
+      <a href="#" class="tx">Pricing</a>
+      <a href="#" class="tx">Contact Us</a>
+
+    </div>
+    <br>
+    <br>
+    <div class="main">
+      <h1 class="tx1">
+        The Kind of Care<br> Your Pets Deserve<h1>
+          <h3 class="tx2">
+            Far far away, behind the word mountains,
+            far from the countries Vokalia<br>and Consonantia,
+            there live the blind texts. Separated they live in<br> Bookmarksgrove.</h3>
+    </div>
+
+    <div class="m2">
+      <img src="bg_1.jpg" class="img2">
+
+
+
+      <div class="bt1"><button class="dropbtn1">Make An Appointment</button> </div>
+
+      <div class="bt2"><button class="dropbtn2">11-234-568-56</button> </div>
+
+    </div>
+
+    <div class="card">
+      <div class="service"><img src="images.png" class="pet1">
+        <h1 class="p1">Veterinary Service</h1>
+        <h3 class="p2">Far far away, behind the
+          <br> word mountains.
+        </h3>
+      </div>
+
+
+
+      <div class="gromming"><img src="pet.png" class="pet2">
+        <h1 class="p3">Pet Grooming</h1>
+        <h3 class="p4">Far far away, behind the word mountains.</h3>
+      </div>
+
+
+
+      <div class="setting"><img src="seting.png" class="pet3">
+        <h1 class="p5">Pet setting</h1>
+        <h3 class="p6"> Far far away, behind the word mountains.</h3>
+
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="ag"><img class="agencyimage" src="about.jpg" alt=""></div>
+    <div class="agency">
+      <div class="agency1" align="center">
+        <h4 class="agency1text">welcome to petvet</h4>
+        <h1 class="best">We Are Best Agency
+          <br> For Your Pets
+        </h1>
+      </div>
+      <div class="agencytext" align="center"><br>A small river named Duden flows by their place and supplies
+        it with <br>the necessary regelialia.It is a paradisematic country, in which roasted <br>
+        parts of sentences fly into your mouth. It is a paradisematic country,<br>
+        in which roasted parts of sentences fly into your mouth.</div><br>
+      <div>
+        <ul class="log">
+          <li><img src="carep.jpg" class="logo">Qualified Groomer</li>
+          <li><img src="carep.jpg" class="logo">Over 20 Years of Experienced</li>
+          <li><img src="carep.jpg" class="logo">Animal Lover</li>
+          <li><img src="carep.jpg" class="logo">Best Pet Care</li>
+        </ul>
+      </div>
+
+      <form class="main-tb">
+        <table class="tb">
+          <tr class="head">
+            <h3 class="make">MAKE AN APPOINTMENT</h3>
+
+          <tr>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Select Your Services</td>
+            <td>Phone</td>
+          </tr>
+          <tr>
+            <td>Date</td>
+            <td>Time</td>
+            <td>Message</td>
+            <td><button class="opp">Make An Appointment</button> </td>
+          </tr>
+        </table>
+      </form>
+      <div class="grom">
+        <h4 class="g1">Groomers</h4>
+        <h1 class="g">Our Groomers</h1>
+      </div>
+    </div>
+
+
+
+    <div class="idcards">
+      <div class="wilson"><img class="image1" src="doc-1.jpg" alt="">
+        <p class="wilsontext">
+        <h1 class="w1">Lloyd Wilson</h1>
+        <h3 class="w2"> CEO, FOUNDER</h3>
+        <img src="tw.png" class=twitter>
+        <img src="fb.png" class="fb">
+        <img src="google.png" class="google">
+        <img src="insta.jfif" class="insta">
+        </p>
+      </div>
+      <div class="parker"><img class="image3" src="doc-2.jpg" alt="">
+        <p class="parkertext">
+        <h1 class="w1">Rachel Parker</h1>
+        <h3 class="w2"> TRAINER</h3>
+        <img src="tw.png" class=twitter>
+        <img src="fb.png" class="fb">
+        <img src="google.png" class="google">
+        <img src="insta.jfif" class="insta">
+        </p>
+      </div>
+      <div class="smith"> <img class="image4" src="doc-3.jpg" alt="">
+        <p class="smithtext">
+        <h1 class="w1">Ian Smith</h1>
+        <h3 class="w2"> GROOMER</h3>
+        <img src="tw.png" class=twitter>
+        <img src="fb.png" class="fb">
+        <img src="google.png" class="google">
+        <img src="insta.jfif" class="insta">
+        </p>
+      </div>
+      <div class="Alicia"><img class="image5" src="doc-4.jpg" alt="">
+        <p class="aliciatext">
+        <h2 class="w3">Alicia Henderson</h2>
+        <h3 class="w4"> GROOMER</h3>
+        <img src="tw.png" class=twitter>
+        <img src="fb.png" class="fb">
+        <img src="google.png" class="google">
+        <img src="insta.jfif" class="insta">
+        </p>
+      </div>
+
+
+    </div>
+    <p class="persn">
+    <h4 class="red">READ TESTIMONIALS</h4>
+    <h1 class="hapy">happy Customers Says</h1>
+
+
+    </p>
+
+
+    <div class="per">
+      <div class="dogi1"><img src="person_1.jpg" class="im1">LIYD GOMEZ
+      </div>
+      <div class="dogi2"><img src="person_2.jpg" class="im2">LIYD GOMEZ</div>
+      <div class="dogi3"><img src="person_3.jpg" class="im2">LIYD GOMEZ</div>
+    </div>
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+</html>
